@@ -114,6 +114,10 @@ public class Remenber : MonoBehaviour
         {
             b.GetComponent<Image>().color = Color.white;
         }
+        foreach(Button b in skipdays)
+        {
+            b.GetComponent<Image>().color = Color.white;
+        }
     }
     public void LockDate()
     {
